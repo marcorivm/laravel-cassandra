@@ -1,6 +1,7 @@
 <?php namespace Kalpeshhpatel\LaravelCassandra;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Foundation\AliasLoader;
 
 class LaravelCassandraServiceProvider extends ServiceProvider {
 
