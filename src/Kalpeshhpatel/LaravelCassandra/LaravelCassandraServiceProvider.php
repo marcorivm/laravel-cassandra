@@ -37,7 +37,7 @@ class LaravelCassandraServiceProvider extends ServiceProvider {
             $this->app->booting(function()
             {
                 $loader = AliasLoader::getInstance();
-                $loader->alias('Cassandra', 'ApplicationBase\Facades\Cassandra');
+                $loader->alias('Cassandra', 'Kalpeshhpatel\LaravelCassandra\Facades\Cassandra');
             });
 	}
 
